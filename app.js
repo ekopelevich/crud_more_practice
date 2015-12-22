@@ -50,7 +50,7 @@ app.post('/camels', function( req, res ){
 
   results.newLlama = newLlama;
 
-  console.log( results );
+  console.log( newLlama );
 });
 
 // Create a new camel
@@ -58,6 +58,7 @@ app.put('/camels/:id', function( req, res ){
 
 });
 
+// Delete a camel
 app.delete('/camels/:id', function( req, res ){
 
 });
